@@ -1,3 +1,6 @@
 import "cart/CartShow";
-import "products/ProductsIndex";
+import { mount } from "products/ProductsIndex";
 console.log("Container!");
+
+const productEl = document.querySelector("#my-products");
+mount(productEl);
