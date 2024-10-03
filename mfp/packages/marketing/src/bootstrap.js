@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom";
 import React from "react";
-
+import App from "./App";
 const mount = (el) => {
-  ReactDOM.render(<h1>Hi there</h1>, el);
+  ReactDOM.render(<App />, el);
 };
 
 // we are running locally on dev mode
